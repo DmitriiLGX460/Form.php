@@ -1,6 +1,6 @@
 <?php
-include_once 'models/User.php';
-include_once 'views/form.php';
+include_once 'User.php';
+include_once 'form.php';
 
 if (isset($_POST) && count( value: $_POST > 0)) {
     $name = $_POST['name'];
